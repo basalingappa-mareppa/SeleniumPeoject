@@ -21,6 +21,8 @@ public class MyntraHome extends BasaPage{
 	 @FindBy(xpath="//div[text()='ADD TO BAG']") WebElement addtocart;
 	 @FindBy(xpath="//span[text()='GO TO BAG']") WebElement gotocart;
 	 @FindBy(className="size-buttons-size-button") WebElement size;
+	 @FindBy(className="size-buttons-size-button") WebElement name;
+	 
 	 
 	 
 	 public void menu()

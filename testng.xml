@@ -3,9 +3,7 @@
 <suite name="Master Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCase.testCase1"/>
       <class name="testCase.Dropdown"/>
-      <class name="testCase.MyntraAddToCart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

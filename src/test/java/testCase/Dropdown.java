@@ -19,8 +19,11 @@ public class Dropdown {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.redbus.in/");
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("//input[@id='src']")).sendKeys("Bnaga");
-        driver.findElement(By.xpath("//ul[@class='sc-dnqmqq dZhbJF']//text[text()='Banga (Pb)']")).click();
+        driver.findElement(By.xpath("//input[@class='sc-bxivhb dsDRlf']")).sendKeys("Bnagalore");
+        driver.findElement(By.xpath("//input[@id='dest']")).sendKeys("chennai");
+        driver.findElement(By.xpath("//span[@class='dateText']")).click();
+     
+        //driver.findElement(By.xpath("//ul[@class='sc-dnqmqq dZhbJF']//text[text()='Banga (Pb)']")).click();
 	}
 	
 	
