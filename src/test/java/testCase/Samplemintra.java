@@ -66,5 +66,6 @@ public class Samplemintra {
 
 	        String sold=driver.findElement(By.className("itemComponents-base-sellerData")).getText();
 	        System.out.println(sold);
+	        System.out.println("test passed");
 	    }
 	}
